@@ -1,0 +1,222 @@
+body {
+    background-image: url('background2.jpg');
+    background-position: top left, bottom right;
+    background-repeat: no-repeat, no-repeat;
+    background-size: cover, cover;
+   
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #080301;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px;
+    height: 100px;
+  }
+  
+  
+  
+  
+  #logo {
+    width: 100px; /* Adjust the width as needed */
+    height: auto;
+    
+  }
+  
+  #website-name {
+    padding-left: 20px;
+    font-size: 34px;
+    font-weight: bold;
+  }
+  .header-buttons{
+  top:40px;
+  }
+  .button-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #353a3f;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    top:30px;
+  }
+  
+  
+.BookNowContent {
+    width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+    background-color: #bcbbcf;
+  }
+  
+  .BookNowContent h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #b3b1d4
+  }
+  
+  .form-group {
+    margin: 20px 0;
+  }
+  
+  label,
+  input,
+  textarea,
+  select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  select {
+    appearance: none;
+    -webkit-appearance: none;
+    background: url("down-arrow.png") no-repeat right;
+    background-size: 20px;
+    padding-right: 30px;
+  }
+  
+  button {
+    width: 100%;
+    background-color: #3522b1;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  
+  button:hover {
+    background-color: #323bbb;
+  }
+/* Style for the entire BookNowContent */
+.BookNowContent {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f7f7f7;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+/* Style for the Step container */
+.step {
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the Step 1 title */
+.step h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Style for the form labels */
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* Style for input fields */
+input[type="text"],
+input[type="number"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+/* Style for the Next button */
+button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive adjustments */
+@media (max-width: 480px) {
+    .step {
+        padding: 15px;
+    }
+    input[type="text"],
+    input[type="number"],
+    select {
+        padding: 8px;
+    }
+    button[type="submit"] {
+        padding: 8px 16px;
+    }
+}
+
+ 
+  
+
+
+
+  /*footer*/
+  footer{
+    background-color:#0d0404;
+    width:100%;
+    height:30px;
+    }
+    
+    .footer1 {
+      color:#d7ecda;
+      width:100%;
+      text-align: center;
+      padding: 30px 0;
+      background-color: #151414;
+     
+    }
+    
+    .footer h4{
+      margin-top: 25px;
+      margin-bottom: 20px;
+      font-weight: 800;
+    }
+    
+    
+    .icons .fa{             /*fa=for the icons */
+       color: #8673b9;
+       margin: 0 13px;
+       cursor: pointer;
+       padding: 18px 0;
+    }
+    
+    .fa-heart{
+      color: #8673b9;
+    }

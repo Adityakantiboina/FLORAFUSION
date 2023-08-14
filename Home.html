@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flora Fusion</title>
+    <style>
+        body {
+            background-image: url('background2.jpg');
+            background-position: top left, bottom right;
+            background-repeat: no-repeat, no-repeat;
+            background-size: cover, cover;
+           
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: #080301;
+            color: #ffffff;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 30px;
+            height: 100px;
+        }
+  
+
+        
+
+        #logo {
+            width: 100px; /* Adjust the width as needed */
+            height: auto;
+            
+        }
+
+        #website-name {
+            padding-left: 20px;
+            font-size: 34px;
+            font-weight: bold;
+        }
+        .header-buttons{
+          top:40px;
+        }
+        .button-link {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #353a3f;
+            color: white;
+            text-decoration: none;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+            top:30px;
+          }
+          
+
+        /* ... (other CSS styles) ... */
+
+        .quotation-section {
+            display: flex;
+            align-items: center;
+            margin-top: 50px;
+        }
+
+        #quotation {
+            font-size: 50px;
+            font-style: italic;
+            margin-left: 200px;
+        }
+
+        #quotation-image {
+            align-items:left;
+            width: 500px; 
+            height: 500px;
+            left:30px;
+            top: 30px;
+        }
+
+        .explore-button-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        #explore-button {
+            padding: 10px 20px;
+            background-color: #333333;
+            color: #ffffff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .image-gallery {
+            display: none; /* Initially hidden */
+            justify-content: center;
+            margin-top: 30px;
+        }
+
+        
+
+       .login{
+        text-align:center;
+        font-size: 30px;
+       }
+       .login2{
+         padding: 10px 20px;
+         font-size: 20px;
+       }
+       /* services*/
+       .services{
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+       }
+
+.services-col{
+    flex-basis: 31%;  /* only flex will effect but not image */  
+    margin-top: 40px;
+}
+
+.services-col img{
+    width: 100%;
+    height: 58%;
+    border-radius: 10px;
+}
+
+.services-col h3{
+    text-align: left;
+    margin-top: 20px;
+}
+
+
+    .row{
+     display: flex;
+     margin: 5% 10% 5% 10%;
+     justify-content: space-between; 
+     left: 0; 
+     right: 0;
+    }
+    .button-link1 {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #353a3f;
+        color: white;
+        text-decoration: none;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+        
+      }
+        /* ... (footer CSS styles) ... */
+    footer{
+        background-color:#0d0404;
+        width:100%;
+        height:30px;
+    }
+
+        .footer1 {
+            color:#d7ecda;
+            width:100%;
+            text-align: center;
+            padding: 30px 0;
+            background-color: #151414;
+           
+        }
+        
+        .footer h4{
+            margin-top: 25px;
+            margin-bottom: 20px;
+            font-weight: 800;
+        }
+        
+        
+        .icons .fa{             /*fa=for the icons */
+             color: #8673b9;
+             margin: 0 13px;
+             cursor: pointer;
+             padding: 18px 0;
+        }
+        
+        .fa-heart{
+            color: #8673b9;
+        }
+    </style>
+    
+</head>
+<body>
+    <header>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <div>
+            <img src="logo.png" alt="Logo" id="logo">
+            <span id="website-name">Flora Fusion</span>
+        </div>
+        <div class="header-buttons">
+            <a href="Home.html" class="button-link">Home</a>
+            <a href="plants.html" class="button-link">Outdoor</a>
+            <a href="seeds.html" class="button-link">Seeds</a>
+            <a href="indoor.html" class="button-link">Indoor</a>
+            <a href="Aboutus.html" class="button-link">About</a>
+            <a href="shop.html" class="button-link">ShopNow</a>
+            <a href="index.html" class="button-link">Logout</a>
+
+        </div>
+    </header>
+
+    <div class="row">
+        <div class="col-2">
+              
+        </div>
+            <div class="col-2">
+                <img src="background2.AVIF" height="700px" width="1200px">
+             </div>
+        </div>
+            <div id="quotation">
+            <b>"The Glory of Gardening: Hands in the dirt, Head in the sun, Heart with nature. 
+            To nurture a garden is to feed not just the body, but the soul."</b><br>
+            <p>Explore a diverse range of indoor plants that not only enhance the aesthetic appeal of your home but also contribute to cleaner air quality and a sense of tranquility</p>
+        </div>
+        
+    </div>
+<!-- services-->
+<section class="services">
+    <h1>Our Services</h1>
+<div class="row">
+        <div class="services-col">
+            <img src="plantslog.jpg" alt="">
+            <a href="plants.html" class="button-link1">Outdoor plants</a>
+            <p>Explore our captivating assortment of plants that celebrate the beauty of nature in all its forms. From vibrant flowering plants to soothing greens, our collection offers a diverse range of botanical wonders to enhance your living spaces. Each plant holds a unique story, waiting to be nurtured and admired in your home or office. Whether you're seeking the charm of indoor plants, the elegance of potted wonders, or the joy of cultivating from seeds, our carefully curated selection has something for every gardening enthusiast. </p>
+        </div>
+   
+        <div class="services-col">
+            <img src="seeds.png" alt="">
+            <a href="seeds.html" class="button-link1">Seeds</a>
+            <p>Welcome to our world of seeds, where every small package holds the promise of transformation and growth. Our curated collection of premium plant seeds invites you to embark on a journey of cultivating beauty and life from the very start. Whether you're an experienced gardener or new to the art of growing, our diverse range of seeds caters to all levels of expertise. From vibrant blooms to luscious greens, each seed carries the potential to create a garden that reflects your unique vision</p>
+        </div>
+   
+        <div class="services-col">
+            <img src="indoor.jpg" alt="">
+            <a href="indoor.html" class="button-link1">Indoor plants</a>
+            <p>Elevate your indoor spaces with our captivating collection of indoor plants,Step into the world of indoor greenery with our handpicked selection of indoor plants. These living companions bring nature's beauty into the heart of your home, transforming your spaces into peaceful sanctuaries. Our indoor plants are carefully chosen to thrive in the comfort of your living areas, whether you have ample sunlight or limited natural light. From elegant foliage to air-purifying wonders, each plant offers its unique charm and benefits. .</p>
+        </div>
+</div>
+</section>
+<!---footer--> 
+<footer>
+<section class="footer1">
+    <h4>Connect With Us</h4>
+    <div class="icons">
+       <i class="fa fa-facebook" ></i>
+       <i class="fa fa-twitter" ></i>
+       <i class="fa fa-instagram" ></i>
+       <i class="fa fa-linkedin" ></i>
+    </div>
+</section>
+</footer>
+
+</body>
+</html>
